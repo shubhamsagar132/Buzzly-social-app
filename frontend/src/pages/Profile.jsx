@@ -6,7 +6,7 @@ import UserProfileInfo from '../components/UserProfileInfo';
 
 const Profile = () => {
  const {profileId} =useParams()
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(null); 
   const [posts, setPosts] = useState([])
   const [activeTab, setActiveTab] = useState('posts')
   const [showEdit, setShowEdit] = useState(false)

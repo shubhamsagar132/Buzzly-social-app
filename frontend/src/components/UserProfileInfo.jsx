@@ -10,6 +10,7 @@ const UserProfileInfo = ({user,posts,profileId,setShowId}) => {
          </div>
             <div className='w-full pt-16 md:pt-0 md:pl-36'>
                <div className='flex flex-col md:flex-row items-start justify-between'> 
+                <div>
                 <div className='flex items-center gap-3'> 
                  
     <h1 className='text-2xl font-bold text-gray-900'> {user.
@@ -18,8 +19,10 @@ full_name}</h1>
 </div>
 <p className='text-gray-600'>{user.username ? `@${user.username}` : 'Add a username'}</p>
 </div>
+
 </div>
 </div>
+   </div>
    </div>
    
   )
