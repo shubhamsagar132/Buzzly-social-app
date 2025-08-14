@@ -28,7 +28,6 @@ fetchUser()
       </div>
       {/* User Info */}
       <UserProfileInfo user={user} posts={posts} profileId={profileId }setShowEdit={setShowEdit}/>
-    </div>
   </div>
 </div>
 ) :  (<Loading/ >)
