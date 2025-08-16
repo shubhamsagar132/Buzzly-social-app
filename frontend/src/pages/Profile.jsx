@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import {useParams} from 'react-router-dom'
 import { dummyPostsData, dummyUserData } from '../assets/assets';
 import Loading from '../components/Loading';
-import UserProfileInfo from '../components/UserProfileInfo';
+import UserProfileInfo from '../components/UserProfileInfo'
 
 const Profile = () => {
   const { profileId } = useParams()
