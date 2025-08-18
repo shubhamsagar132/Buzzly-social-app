@@ -31,7 +31,7 @@ fetchUser()
         </div>
       </div>
     </div>
-  ) : (<Loading />)
+  ) : (<Loading />);
     
 
 }
