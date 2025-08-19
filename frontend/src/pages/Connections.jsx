@@ -56,7 +56,7 @@ className={` cursor-pointer flex items-center px-3 py-1 text-sm rounded-md trans
   {dataArray.find((item)=>item.label === currentTab).value.map((user)=>(
     <div key={user._id} className='w-full max-w-88 flex gap-5 p-6 bg-white shadow rounded-md'>
       <img src={user.profile_picture} alt="" className='rounded-full w-12 h-12 shadow-md mx-auto'/>
-      <div className='flex-1'>
+      <div className='flex-1'>;
         <p className='font-medium text-slate-700'>{user.full_name}</p>
         <p className='text-slate-500'>@{user.username}</p>
         <p className='text-sm text-gray-600'>{user.bio.slice(0, 30)}...</p>
