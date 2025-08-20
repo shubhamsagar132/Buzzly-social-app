@@ -44,7 +44,7 @@ const Discover = () => {
 </div>
 
 {
-  loading && (<Loading height='60vh' />)
+  loading && (<Loading height='60vh' />);
 }
   </div>
 </div>
